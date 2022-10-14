@@ -1,0 +1,25 @@
+.banner_text {
+    font-size: 70px;
+}
+
+.banner_bg {
+    background-color: #EFFAFA;
+}
+
+.banner_btn {
+    background-color: #EFFAFA;
+    border: 1px solid black;
+    padding: 10px 20px;
+    font-size: 12px;
+}
+
+.banner_btn:hover {
+    background-color: #E32A53;
+    border: 1px solid #E32A53;
+    color: #fff;
+    font-weight: 400;
+}
+
+.banner_height {
+    height: 90vh;
+}

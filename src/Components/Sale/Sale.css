@@ -1,0 +1,4 @@
+.hover_skew:hover {
+    transform: scaleX(1);
+    transition: 0.5s;
+}

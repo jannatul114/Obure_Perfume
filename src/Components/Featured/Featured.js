@@ -1,5 +1,4 @@
 import React from 'react';
-import featured from './Featured.css';
 import product1 from '../../images/product-1.webp';
 import product2 from '../../images/product-2.webp';
 import product3 from '../../images/product-3.webp';
@@ -8,6 +7,7 @@ import product5 from '../../images/product-5.webp';
 import product6 from '../../images/product-6.webp';
 import line from '../../images/line.PNG';
 import featured_img from './../../images/fetured-section.webp';
+import './Featured.css';
 const Featured = () => {
     return (
         <div className='d-flex justify-content-center'>
@@ -24,6 +24,7 @@ const Featured = () => {
                                     <div className='ms-3'>
                                         <h6>Nautica Voyage</h6>
                                         <strike><small className='text-secondary me-3'>$21.00</small></strike><small className='price'>$19.00</small>
+                                        <p><small>⭐⭐⭐⭐⭐</small></p>
                                     </div>
                                 </div>
                                 <hr />
@@ -36,6 +37,7 @@ const Featured = () => {
                                     <div className='ms-3'>
                                         <h6>Jean Paul Gaultier</h6>
                                         <small className='price'>$50.00</small>
+                                        <p><small>⭐⭐⭐⭐⭐</small></p>
                                     </div>
                                 </div>
                                 <hr />
@@ -48,6 +50,7 @@ const Featured = () => {
                                     <div className='ms-3'>
                                         <h6>Jean Paul Gaultier</h6>
                                         <strike><small className='text-secondary me-3'>$50.00</small></strike><small className='price'>$21.00</small>
+                                        <p><small>⭐⭐⭐⭐⭐</small></p>
                                     </div>
                                 </div>
                                 <hr />
@@ -60,6 +63,7 @@ const Featured = () => {
                                     <div className='ms-3'>
                                         <h6>Mont Blanc Explorer</h6>
                                         <strike><small className='text-secondary me-3'>$70.00</small></strike><small className='price'>$50.00</small>
+                                        <p><small>⭐⭐⭐⭐⭐</small></p>
                                     </div>
                                 </div>
                                 <hr />
@@ -72,6 +76,7 @@ const Featured = () => {
                                     <div className='ms-3'>
                                         <h6>Nautica Voyage</h6>
                                         <small className='price'>$60.00</small>
+                                        <p><small>⭐⭐⭐⭐⭐</small></p>
                                     </div>
                                 </div>
 
@@ -84,6 +89,7 @@ const Featured = () => {
                                     <div className='ms-3'>
                                         <h6>Coach For Men</h6>
                                         <strike><small className='text-secondary me-3'>$88.00</small></strike><small className='price'>$55.00</small>
+                                        <p><small>⭐⭐⭐⭐⭐</small></p>
                                     </div>
                                 </div>
 

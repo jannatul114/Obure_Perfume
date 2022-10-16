@@ -1,9 +1,21 @@
 .subscribe_inp {
-    padding: 7px 20px;
+    padding: 7px 14px;
     border: 1px solid black;
 }
 
 .subs_btn {
     padding: 8px;
     border: none;
+}
+
+@media only screen and (max-width: 600px) {
+    .subscribe_inp {
+        padding: 6px 13px;
+        width: 170px;
+    }
+
+    .subs_btn {
+        padding: 7px;
+        border: none;
+    }
 }

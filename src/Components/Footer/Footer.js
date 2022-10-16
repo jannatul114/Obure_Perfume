@@ -13,7 +13,7 @@ const Footer = () => {
                         <img src={logo} className="50px" alt="" />
 
 
-                        <p className='mt-5 text-secondary'>Subscribe to our newsleter, Enter your emil address</p>
+                        <p className='my-5 text-secondary'>Subscribe to our newsleter, Enter your emil address</p>
                         <div className='d-flex align-items-center'>
                             <input className='subscribe_inp banner_bg' placeholder='example@email.com' type="text" name="subscribe" id="" />
                             <button className='subs_btn btn-dark'><img src={sent} alt="" /></button>

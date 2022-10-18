@@ -2,6 +2,10 @@ import React from 'react';
 import logo from '../../images/logo.PNG';
 import search from '../../images/search.PNG';
 import seetings from '../../images/settings.PNG';
+import './Navbar.css';
+import { FaShoppingCart, FaHeart } from 'react-icons/fa';
+import ReactTooltip from 'react-tooltip';
+import { NavLink } from 'react-router-dom';
 const Navbar = () => {
     return (
         <div>
@@ -14,7 +18,7 @@ const Navbar = () => {
                     <div className="collapse navbar-collapse" id="navbarSupportedContent">
                         <ul className="navbar-nav mx-auto mb-2 mb-lg-0">
                             <li className="nav-item">
-                                <a className="nav-link  text-dark" aria-current="page" href="#">Home</a>
+                                <NavLink to={'/home'} className="nav-link  text-dark" aria-current="page" >Home</NavLink>
                             </li>
                             <li className="nav-item">
                                 <a className="nav-link text-dark ms-2" href="#">Shop</a>
@@ -41,8 +45,18 @@ const Navbar = () => {
                             </li>
                         </ul>
                         <div className="d-flex">
-                            <img src={search} height={"25px"} className="me-2" alt="" />
-                            <img src={seetings} height={"25px"} alt="" />
+                            <button data-tip data-for="addCart" className='me-4 hover_icon'>
+                                <FaShoppingCart />
+                            </button>
+                            <ReactTooltip id="addCart" place="bottom" effect="solid">
+                                Cart
+                            </ReactTooltip>
+
+
+                            <button data-tip data-for="save" className='hover_icon'> <FaHeart /></button>
+                            <ReactTooltip id="save" place="bottom" effect="solid">
+                                Saved items
+                            </ReactTooltip>
                         </div>
                     </div>
                 </div>

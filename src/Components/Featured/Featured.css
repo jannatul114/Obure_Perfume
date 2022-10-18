@@ -1,4 +1,14 @@
+* {
+    transition: 0.1s;
+}
+
 .price {
     color: #E32A53;
     font-weight: 400;
+}
+
+.featured_img:hover {
+    transform: scale(1.1);
+    transition: 0.5s ease-in-out;
+
 }

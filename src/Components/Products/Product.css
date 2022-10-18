@@ -1,12 +1,14 @@
 .hover_product:hover {
     /* background-color: #e7245557; */
-    transition: 0.5s;
+    /* transition: 0.5s; */
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    cursor: pointer;
 }
 
 
 .containers:hover .image {
     transition: 0.5s;
-    opacity: 0.6;
+    opacity: 0.3;
 }
 
 .containers:hover .middle {
@@ -15,12 +17,17 @@
 
 }
 
+.containers {
+    position: relative;
+
+}
+
 
 .middle {
     transition: .5s ease;
     opacity: 0;
     position: absolute;
-    top: 50%;
+    top: 40%;
     left: 50%;
     transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
@@ -30,11 +37,35 @@
 }
 
 
-/* .texts {
-    background-color: #04AA6D;
+.hover_btn {
+    background-color: none;
     color: black;
-    font-size: 16px;
-    padding: 16px 32px;
-    transition: 0.5s;
+    font-weight: 500;
+    font-size: 15px;
+    padding: 8px 12px;
+    /* transition: 0.5s; */
+    border: 1px solid #777;
+    margin: 10px;
+    border-radius: 50%;
+    display: inline;
 
-} */
+}
+
+.hover_btn:hover {
+    background-color: #e72455f1;
+    color: white;
+    font-weight: 500;
+    font-size: 15px;
+    padding: 8px 12px;
+    /* transition: 0.5s; */
+    border: 1px solid #777;
+    margin: 10px;
+    border-radius: 50%;
+    display: inline;
+
+}
+
+.texts {
+    display: flex;
+    border-radius: 35px;
+}

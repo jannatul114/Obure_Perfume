@@ -24,7 +24,7 @@ const Featured = () => {
                                     <div className='ms-3'>
                                         <h6>Nautica Voyage</h6>
                                         <strike><small className='text-secondary me-3'>$21.00</small></strike><small className='price'>$19.00</small>
-                                        <p><small>⭐⭐⭐⭐⭐</small></p>
+                                        {/* <p><small>⭐⭐⭐⭐⭐</small></p> */}
                                     </div>
                                 </div>
                                 <hr />
@@ -37,7 +37,7 @@ const Featured = () => {
                                     <div className='ms-3'>
                                         <h6>Jean Paul Gaultier</h6>
                                         <small className='price'>$50.00</small>
-                                        <p><small>⭐⭐⭐⭐⭐</small></p>
+                                        {/* <p><small>⭐⭐⭐⭐⭐</small></p> */}
                                     </div>
                                 </div>
                                 <hr />
@@ -50,7 +50,7 @@ const Featured = () => {
                                     <div className='ms-3'>
                                         <h6>Jean Paul Gaultier</h6>
                                         <strike><small className='text-secondary me-3'>$50.00</small></strike><small className='price'>$21.00</small>
-                                        <p><small>⭐⭐⭐⭐⭐</small></p>
+                                        {/* <p><small>⭐⭐⭐⭐⭐</small></p> */}
                                     </div>
                                 </div>
                                 <hr />
@@ -63,7 +63,7 @@ const Featured = () => {
                                     <div className='ms-3'>
                                         <h6>Mont Blanc Explorer</h6>
                                         <strike><small className='text-secondary me-3'>$70.00</small></strike><small className='price'>$50.00</small>
-                                        <p><small>⭐⭐⭐⭐⭐</small></p>
+                                        {/* <p><small>⭐⭐⭐⭐⭐</small></p> */}
                                     </div>
                                 </div>
                                 <hr />
@@ -76,7 +76,7 @@ const Featured = () => {
                                     <div className='ms-3'>
                                         <h6>Nautica Voyage</h6>
                                         <small className='price'>$60.00</small>
-                                        <p><small>⭐⭐⭐⭐⭐</small></p>
+                                        {/* <p><small>⭐⭐⭐⭐⭐</small></p> */}
                                     </div>
                                 </div>
 
@@ -89,7 +89,7 @@ const Featured = () => {
                                     <div className='ms-3'>
                                         <h6>Coach For Men</h6>
                                         <strike><small className='text-secondary me-3'>$88.00</small></strike><small className='price'>$55.00</small>
-                                        <p><small>⭐⭐⭐⭐⭐</small></p>
+                                        {/* <p><small>⭐⭐⭐⭐⭐</small></p> */}
                                     </div>
                                 </div>
 
@@ -97,7 +97,7 @@ const Featured = () => {
                         </div>
                     </div>
                     <div className='col-lg-4 col-md-12 col-sm-12 col-12'>
-                        <img src={featured_img} className="container-fluid" alt="" />
+                        <img src={featured_img} className="container-fluid featured_img" alt="" />
                     </div>
                 </div>
             </div>
